@@ -30,6 +30,36 @@ p {
     margin: auto;
 }
 
+.sectionTitle {
+    width: 300px;
+    border-bottom: 3px solid var(--themeRed);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 auto 50px;
+    position: relative;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.sectionTitle::after {                      /*title k neeche line*/
+    display: inline-block;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: var(--themeRed);
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(75% - 7px);
+    transform: rotate(45deg) translate(50%, 50%);
+    border: 3px solid #fff;
+}
+
+section{
+    padding: 100px 0;
+    position: relative;
+}
+
 /* common style ends */
 
 /* home style */
@@ -124,4 +154,27 @@ header nav ul li a:hover{
     font-size: 13px;
     border-radius: 3px;
     font-weight: 600;
+}
+
+/* home style end */
+/* about seciton start*/
+
+#aboutSection .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    height: 245px;
+}
+
+#aboutSection .cards > div {
+    width: 350px;
+    background-color: var(--gray);
+    padding: 35px;
+    color: #444;
+    text-align: center;
+    border-radius: 5px;
+    height: 215px;
+    border: 1px solid #ccc;
 }
