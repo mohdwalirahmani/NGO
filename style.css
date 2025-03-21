@@ -266,19 +266,19 @@ header nav ul li a:hover{
 
 .programs .boxContainer .box:nth-child(1) .cardImage,
 .programs .boxContainer .box:nth-child(1) .cardImage:after {
-    background-image: url(images/first.jpg);
+    background-image: url(images/projects/first.jpg);
 }
 .programs .boxContainer .box:nth-child(2) .cardImage,
 .programs .boxContainer .box:nth-child(2) .cardImage:after {
-    background-image: url(images/second.jpg);
+    background-image: url(images/projects/second.jpg);
 }
 .programs .boxContainer .box:nth-child(3) .cardImage,
 .programs .boxContainer .box:nth-child(3) .cardImage:after {
-    background-image: url(images/third.jpg);
+    background-image: url(images/projects/third.jpg);
 }
 .programs .boxContainer .box:nth-child(4) .cardImage,
 .programs .boxContainer .box:nth-child(4) .cardImage:after {
-    background-image: url(images/forth.jpg);
+    background-image: url(images/projects/forth.jpg);
 }
 
 .programs .boxContainer .box:hover .cardImage:after{        /*hover effect*/
