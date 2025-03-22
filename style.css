@@ -345,3 +345,38 @@ header nav ul li a:hover{
 .gallery .galleryContainer .items:hover img {
     transform: scale(1.2);
 }
+
+/*contact us section*/
+
+.contact {
+    background-image: url(images/RedBG.jpg);
+    color: #fff;
+}
+
+.contact .contactTitle {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.contact .contactTitle span {
+    font-weight: 700;
+}
+
+.contact button {
+    padding: 7px 15px;
+    margin-top: 20px;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contact button.contactNow {
+    margin-right: 10px;
+    background-color: #424242;
+    color: #fff;
+}
+
+.contact button.donateBtn{
+    background-color: var(--gray);
+}
