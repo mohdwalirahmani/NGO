@@ -322,6 +322,7 @@ header nav ul li a:hover{
 .gallery .galleryContainer img {
     width: 100%;
     display: block;
+    transition: 0.4s;
 }
 
 .gallery .galleryContainer .title {
@@ -334,4 +335,13 @@ header nav ul li a:hover{
     font-weight: bold;
     opacity: 0;
     z-index: 1;
+    transition: 0.4s;
+}
+
+.gallery .galleryContainer .items:hover .title {
+    opacity: 1;
+}
+
+.gallery .galleryContainer .items:hover img {
+    transform: scale(1.2);
 }
